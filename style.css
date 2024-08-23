@@ -1,0 +1,10 @@
+.clickDiv 
+{
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: blue;
+    width: max-content;
+}
