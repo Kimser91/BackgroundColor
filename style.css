@@ -8,3 +8,13 @@
     border-color: blue;
     width: max-content;
 }
+
+.clickDiv:hover 
+{
+ opacity: 80%;
+}
+
+.clickDiv:active 
+{
+    opacity: 40%;
+}

@@ -6,6 +6,7 @@ function updateVeiw()
 {
    view.innerHTML = 
    `
+   <div>${addColor}</div>
    <div class="clickDiv" onclick="setVariabelColor(this.innerHTML)">green</div>
    <div class="clickDiv" onclick="setVariabelColor(this.innerHTML)">yellow</div>
    <div class="clickDiv" onclick="setVariabelColor(this.innerHTML)">red</div>
@@ -21,4 +22,5 @@ function color()
 function setVariabelColor(newColor) 
 {
   addColor =  newColor;
+  updateVeiw();
 }
